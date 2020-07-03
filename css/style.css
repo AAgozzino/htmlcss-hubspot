@@ -3,3 +3,41 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.menu-inline li{
+  list-style: none;
+  display: inline-block;
+}
+
+/* header */
+.header-top{
+  background-color: #F4F9FD;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-top-language{
+  float: left;
+  width: 25%;
+}
+
+.navbar-top-login{
+  float: right;
+  width: 25%;
+  text-align: right;
+}
