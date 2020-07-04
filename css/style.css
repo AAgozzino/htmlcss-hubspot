@@ -8,6 +8,16 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+button{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #F07558;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
 .clearfix{
   content: '';
   display: table;
@@ -40,4 +50,33 @@ body{
   float: right;
   width: 25%;
   text-align: right;
+}
+
+.navbar-top-language li{
+  padding-right: 15px;
+}
+
+.navbar-top-login li{
+  padding-left: 15px;
+}
+
+.header-bottom{
+  background-color: #fff;
+  height: 80px;
+  line-height: 80px;
+  border-top: 1px solid #32495B
+}
+
+.logo{
+  float: left;
+  width: 20%;
+}
+
+.main-menu{
+  float: right;
+  text-align: right;
+}
+
+.main-menu li{
+  padding-left: 15px;
 }
