@@ -112,8 +112,8 @@ button.big{
   position: absolute;
   top: 25%;
   left: 0;
+  transform: translateY(-25%);
   color: #33475B;
-  /* line-height: 1.5; */
 }
 
 .title h1{
@@ -123,11 +123,13 @@ button.big{
 .title p{
   line-height: 1.5;
   margin: 30px 0;
+  font-weight: 100;
 }
 
 .title .upgrade{
   font-size: 10px;
   margin-top: 30px;
+  font-weight: 100;
 }
 
 /* banner azzurro */
@@ -136,4 +138,45 @@ button.big{
   background-color: #AFEBE4;
   border-top: 2px solid #33475B;
   border-bottom: 2px solid #33475B;
+}
+
+/* main - section powerful alone */
+.powerful{
+  height: 1500px;
+  background-color: #F4F9FD;
+}
+
+.main-top{
+  height: 1500px;
+  background-color: grey;
+}
+
+.rubik{
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  background-color: lightgrey;
+}
+
+.crm{
+  height: 300px;
+  background-color: pink;
+}
+
+/* box 3clm hub */
+.hub{
+  width: 100%;
+}
+
+.box-hub{
+  float: left;
+  width: calc(33.33% - 100px/3);
+  height: 700px;
+  background-color: orchid;
+  margin: 50px 0;
+}
+
+.box-hub.sales{
+  margin-left: 50px;
+  margin-right: 50px;
 }
