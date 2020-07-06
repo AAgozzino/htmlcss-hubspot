@@ -166,7 +166,7 @@ button.big{
 
 .main-top{
   height: 1500px;
-  background-color: grey;
+  background-color: #F4F9FD;
 }
 
 .rubik{
@@ -193,15 +193,43 @@ button.big{
 
 .crm{
   height: 300px;
+  width: 100%;
+  padding: 30px;
+  margin: auto;
+}
+
+.crm img{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.crm .book{
+  float: left;
+  height: 300px;
+  width: 25%;
   background-color: pink;
 }
 
+.crm .testo{
+  float: right;
+  width: 70%;
+  margin-left: 5%;
+  background-color: grey;
+}
+
+
+.box{
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0 0 11px #EAF0F6;
+}
 /* box 3clm hub */
 .hub{
   width: 100%;
 }
 
-.box-hub{
+.hub-clm{
   float: left;
   width: calc(33.33% - 100px/3);
   height: 700px;
@@ -209,7 +237,7 @@ button.big{
   margin: 50px 0;
 }
 
-.box-hub.sales{
+.hub-clm.sales{
   margin-left: 50px;
   margin-right: 50px;
 }
