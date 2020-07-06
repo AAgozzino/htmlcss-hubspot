@@ -18,6 +18,10 @@ button{
   border-radius: 5px;
 }
 
+button.big{
+  padding: 15px 20px;
+}
+
 .clearfix{
   content: '';
   display: table;
@@ -60,6 +64,15 @@ button{
   padding-left: 15px;
 }
 
+.fa-search{
+  color: #43A5BE;
+}
+#login{
+  color: #F07558;
+  background-color: transparent;
+  border: 1px solid #F07558;
+}
+
 .header-bottom{
   background-color: #fff;
   height: 80px;
@@ -79,4 +92,48 @@ button{
 
 .main-menu li{
   padding-left: 15px;
+}
+
+/* banner header */
+
+.banner{
+  height: 600px;
+  background-color: #FDF4EF;
+  background-image: url(../img/jumbotron.png);
+}
+
+.title-left{
+  position: relative;
+  height: 600px;
+}
+
+.title{
+  width: 40%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  color: #33475B;
+  /* line-height: 1.5; */
+}
+
+.title h1{
+  font-size: 40px;
+}
+
+.title p{
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+.title .upgrade{
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+/* banner azzurro */
+.divider{
+  height: 80px;
+  background-color: #AFEBE4;
+  border-top: 2px solid #33475B;
+  border-bottom: 2px solid #33475B;
 }
