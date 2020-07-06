@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  color: #33475B;
 }
 
 button{
@@ -127,12 +128,12 @@ button.big{
 }
 
 .title{
-  width: 40%;
+  width: 33%;
   position: absolute;
   top: 25%;
   left: 0;
   transform: translateY(-25%);
-  color: #33475B;
+  /* color: #33475B; */
 }
 
 .title h1{
@@ -142,13 +143,11 @@ button.big{
 .title p{
   line-height: 1.5;
   margin: 30px 0;
-  font-weight: 100;
 }
 
 .title .upgrade{
   font-size: 10px;
   margin-top: 30px;
-  font-weight: 100;
 }
 
 /* banner azzurro */
@@ -173,8 +172,23 @@ button.big{
 .rubik{
   width: 80%;
   height: 400px;
+  padding: 35px;
   margin: auto;
-  background-color: lightgrey;
+  text-align: center;
+}
+
+.rubik img{
+  height: 200px
+}
+
+.rubik h2{
+  font-size: 35px;
+}
+
+.rubik p{
+  width: 70%;
+  margin: 30px auto;
+  line-height: 1.5;
 }
 
 .crm{
