@@ -36,6 +36,7 @@ button.big{
 .menu-inline li{
   list-style: none;
   display: inline-block;
+  color: #3D5364;
 }
 
 /* header */
@@ -50,15 +51,25 @@ button.big{
   width: 25%;
 }
 
+.navbar-top-language .menu-inline li{
+  display: inline;
+}
+
+.navbar-top-language .menu-inline li:first-child{
+  padding-right: 10px;
+  border-right: 1px solid #899397;
+}
+
+.navbar-top-language .menu-inline li:last-child{
+  padding-left: 10px;
+}
+
 .navbar-top-login{
   float: right;
   width: 25%;
   text-align: right;
 }
 
-.navbar-top-language li{
-  padding-right: 15px;
-}
 
 .navbar-top-login li{
   padding-left: 15px;
@@ -67,6 +78,7 @@ button.big{
 .fa-search{
   color: #43A5BE;
 }
+
 #login{
   color: #F07558;
   background-color: transparent;
@@ -83,6 +95,11 @@ button.big{
 .logo{
   float: left;
   width: 20%;
+  height: 100%;
+}
+
+.logo img{
+  vertical-align: middle;
 }
 
 .main-menu{
@@ -100,6 +117,8 @@ button.big{
   height: 600px;
   background-color: #FDF4EF;
   background-image: url(../img/jumbotron.png);
+  background-position: top right;
+  background-repeat: no-repeat;
 }
 
 .title-left{
