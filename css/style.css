@@ -403,17 +403,16 @@ button.big{
 
 /* section start */
 .start{
-  height: 700px;
+  /* height: 700px; */
 }
 
 .last{
   padding: 50px 0;
-  background-color: lightgrey;
   height: 100%;
 }
 
 .wrapper-loghi{
-  height: 200px;
+  /* height: 200px; */
   width: 80%;
   margin: auto;
   background-color: pink;
@@ -446,26 +445,27 @@ button.big{
 }
 
 .logo{
-  width: 25%;
+  width: 24%;
+  height:
 }
 
 .logo img{
-  width: 90%;
+  width: 75%;
+  max-height: 40px;
+  vertical-align: middle;
   margin: auto;
-  
+
 }
 .wrapper-grow{
-  height: 400px;
+  height: 350px;
   width: 90%;
-  margin: auto;
-  background-color: orchid;
+  margin: 5% auto;
 }
 
 .wrapper-grow .testo-grow{
   float: left;
   width: 50%;
   height: 100%;
-  background-color: purple;
 }
 
 .wrapper-testo-grow{
@@ -487,7 +487,6 @@ button.big{
   float: left;
   width: 50%;
   height: 100%;
-  background-color: violet;
 }
 
 .foto{
@@ -495,9 +494,84 @@ button.big{
 }
 
 .foto img{
-  height: 400px;
+  height: 100%;
   position: absolute;
   top:0;
-  right: 0;
+  right: 10%;
+}
 
+/* footer */
+footer{
+  background-color: #32495B;
+  color: #DADEE0;
+}
+
+.wrapper-clm{
+  width: 100%;
+}
+
+.footer-clm{
+  float: left;
+  width: 25%;
+  margin-top: 30px;
+}
+
+.footer-list{
+  list-style: none;
+  line-height: 2.0;
+}
+
+.footer-clm h4{
+  margin-bottom: 30px;
+}
+
+.footer-clm .white{
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+  background-color: #DADEE0;
+  color: #32495B;
+}
+
+.footer-clm .footer-list .menu-inline li{
+  width: 10%;
+  color: #DADEE0;
+}
+
+.language .menu-inline{
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.language .menu-inline li{
+padding: 10px;
+color: #DADEE0;
+}
+
+.language hr{
+  height: 3px;
+  background-color: #DADEE0;
+  margin-bottom: 40px;
+}
+
+.copyright{
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.copyright .logo-hs{
+  float:left;
+  width: 50%;
+}
+
+.copyright .legal .menu-inline{
+  float: right;
+  width: 50%;
+  text-align: right;
+  color: #DADEE0;
+}
+
+.copyright .legal .menu-inline li{
+  color: #DADEE0;
+  padding-left: 15px;
 }
