@@ -350,7 +350,8 @@ button.big{
 
 }
 .grid{
-  width: 100%;
+  width: 80%;
+  margin: auto;
   margin-top: 40px;
 }
 .row{
@@ -399,4 +400,68 @@ button.big{
 
 .grid-cell .descrizione{
   font-size: 12px;
+}
+
+/* section start */
+.start{
+  height: 700px;
+}
+
+.last{
+  background-color: lightgrey;
+  height: 100%;
+}
+
+.wrapper-loghi{
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  background-color: pink;
+}
+
+.wrapper-loghi .customers{
+  float: left;
+  height: 100%;
+  width: 25%;
+  padding: 30px;
+  background-color: aqua;
+}
+
+.customer-numero{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.customers p{
+  width: 75%;
+  line-height: 1.5;
+}
+
+.wrapper-loghi .wrapper-clienti{
+  float: right;
+  height: 100%;
+  width: 70%;
+  background-color: lightblue;
+}
+
+
+.wrapper-grow{
+  height: 400px;
+  width: 100%;
+  background-color: orchid;
+}
+
+.wrapper-grow .testo-grow{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: purple;
+}
+
+.wrapper-grow .foto{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: violet;
 }
