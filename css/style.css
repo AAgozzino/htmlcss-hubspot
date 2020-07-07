@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
   color: #33475B;
@@ -25,10 +31,17 @@ button.big{
   padding: 15px 20px;
 }
 
-.clearfix{
-  content: '';
-  display: table;
-  clear: both;
+h2{
+    font-size: 35px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+p{
+  line-height: 1.8;
 }
 
 .container{
@@ -94,13 +107,13 @@ button.big{
   border-top: 1px solid #32495B
 }
 
-.logo{
+.logohs{
   float: left;
   width: 20%;
   height: 100%;
 }
 
-.logo img{
+.logohs img{
   vertical-align: middle;
 }
 
@@ -142,7 +155,6 @@ button.big{
 }
 
 .title p{
-  line-height: 1.5;
   margin: 30px 0;
 }
 
@@ -170,7 +182,6 @@ button.big{
 
 .rubik{
   width: 80%;
-  height: 400px;
   padding: 35px;
   margin: auto;
   text-align: center;
@@ -180,18 +191,13 @@ button.big{
   height: 200px
 }
 
-.rubik h2{
-  font-size: 35px;
-}
 
 .rubik p{
   width: 70%;
   margin: 30px auto;
-  line-height: 1.5;
 }
 
 .crm{
-  height: 300px;
   width: 100%;
   padding: 50px;
   margin: auto;
@@ -238,13 +244,7 @@ button.big{
   margin-right: 20%;
 }
 
-.testo h3{
-  font-size: 25px;
-  margin-bottom: 30px;
-}
-
 .testo p{
-  line-height: 1.5;
   margin-bottom: 20px;
 }
 
@@ -289,13 +289,7 @@ button.big{
   margin-bottom: 30px;
 }
 
-.hub-clm h3{
-  font-size: 25px;
-  margin-bottom: 30px;
-}
-
 .hub-clm p{
-  line-height: 1.5;
   margin-bottom: 20px;
 }
 
@@ -336,13 +330,11 @@ button.big{
 
 
 .grid-text h2{
-  font-size: 35px;
   width: 75%;
   margin: auto;
 }
 
 .grid-text p{
-  line-height: 1.5;
   width: 75%;
   margin: auto;
   margin-top: 20px;
@@ -402,20 +394,14 @@ button.big{
 }
 
 /* section start */
-.start{
-  /* height: 700px; */
-}
-
 .last{
   padding: 50px 0;
   height: 100%;
 }
 
 .wrapper-loghi{
-  /* height: 200px; */
   width: 80%;
   margin: auto;
-  background-color: pink;
 }
 
 .wrapper-loghi .customers{
@@ -423,7 +409,6 @@ button.big{
   height: 100%;
   width: 25%;
   padding: 30px;
-  background-color: aqua;
 }
 
 .customer-numero{
@@ -434,19 +419,18 @@ button.big{
 
 .customers p{
   width: 75%;
-  line-height: 1.5;
 }
 
 .wrapper-loghi .wrapper-clienti{
   float: right;
   height: 100%;
   width: 70%;
-  background-color: lightblue;
+  padding: 30px;
 }
 
 .logo{
   width: 24%;
-  height:
+  padding: 10px;
 }
 
 .logo img{
@@ -469,17 +453,15 @@ button.big{
 }
 
 .wrapper-testo-grow{
-  width: 65%;
+  width: 75%;
   padding: 30px;
 }
 
 .wrapper-testo-grow h2{
-  font-size: 35px;
   margin-bottom: 30px;
 }
 
 .wrapper-testo-grow p{
-  line-height: 1.5;
   margin-bottom: 30px;
 }
 
@@ -518,7 +500,7 @@ footer{
 
 .footer-list{
   list-style: none;
-  line-height: 2.0;
+  line-height: 2.5;
 }
 
 .footer-clm h4{
