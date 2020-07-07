@@ -73,7 +73,6 @@ button.big{
   text-align: right;
 }
 
-
 .navbar-top-login li{
   padding-left: 15px;
 }
@@ -147,7 +146,7 @@ button.big{
   margin: 30px 0;
 }
 
-.title .upgrade{
+.upgrade{
   font-size: 10px;
   margin-top: 30px;
 }
@@ -408,6 +407,7 @@ button.big{
 }
 
 .last{
+  padding: 50px 0;
   background-color: lightgrey;
   height: 100%;
 }
@@ -445,10 +445,19 @@ button.big{
   background-color: lightblue;
 }
 
+.logo{
+  width: 25%;
+}
 
+.logo img{
+  width: 90%;
+  margin: auto;
+  
+}
 .wrapper-grow{
   height: 400px;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   background-color: orchid;
 }
 
@@ -459,9 +468,36 @@ button.big{
   background-color: purple;
 }
 
+.wrapper-testo-grow{
+  width: 65%;
+  padding: 30px;
+}
+
+.wrapper-testo-grow h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.wrapper-testo-grow p{
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
 .wrapper-grow .foto{
   float: left;
   width: 50%;
   height: 100%;
   background-color: violet;
+}
+
+.foto{
+  position: relative;
+}
+
+.foto img{
+  height: 400px;
+  position: absolute;
+  top:0;
+  right: 0;
+
 }
