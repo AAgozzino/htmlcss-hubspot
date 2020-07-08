@@ -144,10 +144,8 @@ p{
 .title{
   width: 33%;
   position: absolute;
-  top: 25%;
+  top: 15%;
   left: 0;
-  transform: translateY(-25%);
-  /* color: #33475B; */
 }
 
 .title h1{
